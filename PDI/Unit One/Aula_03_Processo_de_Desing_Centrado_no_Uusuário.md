@@ -9,7 +9,6 @@
 ### O que é design?
 - Design é um processo composto por três atividades básicas: 
 
-
 > Análise da situação atual: Estudar e compreender a situação existente. 
 
 > Síntese de uma intervenção: Planejar e criar uma nova solução ou modificação para a situação atual. 
@@ -19,7 +18,7 @@
 
 - Explicação Intuitiva: Pense no design como um ciclo para resolver problemas. Primeiro, você entende o problema (análise). Depois, você cria uma solução (síntese). Finalmente, você testa para ver se a solução funcionou (avaliação). Se não funcionou perfeitamente, você usa o que aprendeu para entender melhor o problema e criar uma solução ainda melhor, repetindo o ciclo.
 
-
+> Na análise da situação atual, buscamos conhecer os elementos envolvidos e as relações entre eles.
 
 
 ### Processos de Design de Interação Humano-Computador (IHC)

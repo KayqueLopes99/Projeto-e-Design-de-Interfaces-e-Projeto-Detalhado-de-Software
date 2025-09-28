@@ -84,3 +84,14 @@ Um **diagrama de casos de uso** mostra:
 
 ---
 
+## Direção das setas:
+- Associação: linha simples (sólida) entre o ator e o caso de uso.
+- Generalização: linha com ponta de seta aberta (vazia) apontando para o ator ou caso de uso mais genérico.
+- Include: linha pontilhada com ponta de seta aberta (vazia) apontando para o caso de uso incluído.
+- Extend: linha pontilhada com ponta de seta aberta (vazia) apontando para o caso de uso que está sendo estendido.
+
+
+- Seta apontando do ator A(pai) para o ator B(filho) indica que B herda os casos de uso de A.
+- Seta apontando do caso de uso A(pai) para o caso de uso B(filho) indica que B herda os casos de uso de A.
+
+- 

@@ -54,16 +54,22 @@ do que o previsto.
 ![](image/image1.png)
 - R: Um bom software deve prover a funcionalidade e o desempenho requeridos pelo usuário; além disso, deve ser confiável e fácil de manter e usar.
 
-• O software deve fornecer a funcionalidades requeridas para satisfazer as
-necessidades do usuário e deve apresentar:
+• O software deve fornecer a funcionalidades requeridas para satisfazer as necessidades do usuário e deve apresentar:
+
 • Facilidade de manutenção
-• Deve ser fácil e barato fazer com que o sistema, depois de implantado,
-evolua para atender às necessidades dos clientes
+
+• Deve ser fácil e barato fazer com que o sistema, depois de implantado, volua para atender às necessidades dos clientes
+
 • Confiabilidade
+
 • O software deve funcionar conforme sua especificação
+
 • Eficiência
+
 • O software deve usar o mínimo de recursos maximizando funcionalidade
+
 • Usabilidade
+
 • O software deve ser compreensível e fácil de usar
 
 ### O que é Processo de Software?
@@ -134,7 +140,7 @@ Apesar da variedade de processos de software, todos devem contemplar quatro ativ
 - Em outras palavras, são ferramentas ou softwares criados para ajudar desenvolvedores e equipes a planejar, projetar, documentar, implementar e até testar sistemas de software.
 > Ferramenta CASE = um “programa que ajuda a desenvolver programas”. Não substitui.
 
-### Quais são os principais desafios enfrentados pela Engenharia se Software?
+### Quais são os principais desafios enfrentados pela Engenharia de Software?
 > Lidar com a crescente diversidade
 
 > É exigido que o Software moderno seja cada vez mais complexo (com recursos como, uso da IA , distribuído, paralelismo, entre outros)

@@ -7,6 +7,7 @@
 * **Aplicação**: É usada para criar modelos de processos do mundo real e também de processos em arquiteturas de software.
 
 * **Funcionalidade**: A UML serve tanto para analisar os elementos que participam de um processo quanto para entender o comportamento desses elementos dentro do processo.
+
 * **Abrangência**: Ela oferece elementos para modelar todas as etapas do desenvolvimento de um software.
 
 ### **História da UML**

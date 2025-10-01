@@ -1,23 +1,20 @@
 ## Modelagem de Software
 ### Motivação:
 * **Modelos de Sistema/Software** → Representações do sistema (ex.: modelo de classes, casos de uso).
+
 * **Modelos gráficos e notações** → Diagramas e símbolos usados para representar o sistema (ex.: UML).
+
 * **Restrições** → Regras/limitações que os modelos devem seguir (ex.: requisitos obrigatórios, padrões técnicos).
+
 * **Boas práticas de projeto** → Recomendações para deixar o sistema mais organizado, seguro e eficiente.
+
 * **Atividades em ordem** → Passos que precisam ser seguidos (ex.: análise → projeto → implementação → testes).
+
 * **Ferramentas** → Softwares que podem ser usados (ex.: IDEs, CASE, gerenciadores de versão).
 
 - Um **processo de software** organiza **como desenvolver um sistema**, indicando **o que modelar, como representar, quais regras seguir, boas práticas, ordem das atividades e ferramentas de apoio**.
 
-
-
-### Na construção você tem Modelos:
-Show, vou deixar bem simples e direto, do jeito que você pediu:
-
----
-
 ### Na construção de software você tem **Modelos**, mas por que?
-
 * **Gerenciar a complexidade** → o sistema é grande, o modelo ajuda a organizar as ideias em partes menores.
 * **Comunicação** → facilita a troca de informações entre desenvolvedores, clientes e gestores (todos entendem melhor).
 * **Redução de custos** → encontrar erros no modelo é mais barato do que encontrar depois no código.
@@ -25,12 +22,6 @@ Show, vou deixar bem simples e direto, do jeito que você pediu:
 
 - Resumindo: **modelo é como um rascunho/protótipo** que ajuda a entender, planejar e guiar a construção do software sem gastar tanto tempo e dinheiro corrigindo depois.
 
-
-### O que são modelos?
-- Transformação de conhecimento tácito em conhecimento explícito!
-Perfeito! Mantive tuas imagens nos pontos que tu já tinha colocado, só organizei o texto em tópicos claros e sequência lógica 👇
-
----
 
 #  O que são Modelos?
 -  **Transformação de conhecimento tácito em conhecimento explícito!**

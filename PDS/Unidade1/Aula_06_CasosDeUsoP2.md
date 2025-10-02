@@ -71,27 +71,66 @@ Um **diagrama de casos de uso** mostra:
 
 > Relacionamento de associação (entre ator e caso de uso): Simbolo de uma seta do ator para o caso.
 
-> Relacionamento de generalização (entre atores): Simbolo de uma seta com ponta branca do ator B para o ator B. Isso idica que os casos de uso de B serão tbm os de A.
+> Relacionamento de associação (entre caso de uso e ator): Simbolo de uma seta do caso para o ator.
 
-> Entre os casos de uso <<include>>: quando um caso de uso sempre **inclui outro** como parte da sua execução. Simbolo de um seta pontilhada do caso A para o B.
+> Relacionamento de generalização (entre casos de uso): Simbolo de uma seta com ponta branca do caso A para o caso B. Isso idica que os casos de uso de B serão tbm os de A.
+- ex do caso A: "Fazer pagamento com cartão"
+- ex do caso B: "Fazer pagamento com cartão de crédito"
 
-> Entre os casos de uso <<estends>>: quando um caso de uso pode ser **estendido opcionalmente** por outro
+
+> Relacionamento de generalização (entre atores): Simbolo de uma seta com ponta branca do ator B para o ator B. Isso indica que os casos de uso de B serão tbm os de A.
+
+> Entre os casos de uso << include >>: quando um caso de uso sempre **inclui outro** como parte da sua execução. Simbolo de um seta pontilhada do caso A para o B.
+- Definição clara do < extends >: 
+
+
+> Entre os casos de uso << estends >>: quando um caso de uso pode ser **estendido opcionalmente** por outro
 
 > Retângo em torno dos casps de uso, pois limita o sistema, deixando os atores fora do retângulo sempre.
 
 ---
 ![](image/image17.png)
+- Essa seta representa Generalização (ou herança).
+
+- Ela indica que os casos de uso "filhos" (Registrar compra a prazos e a vista) são versões especializadas do caso de uso "pai" (Registrar 
+compra de celular).
 
 ---
 
+### obs: 
+> **<< include >>**: Um caso de uso sempre chama outro, pois ele faz parte do fluxo principal.  
+
+> **Include** = “sempre junto” (obrigatório).  
+
+> **Exemplo:** *Comprar Passagem* → inclui *Validar Pagamento*.
+
+> **<< extend >>**: Um caso de uso aproveita o comportamento de outro (o caso principal) e adiciona algo somente se uma condição acontecer.  
+
+> **Extend** = “às vezes junto” (opcional/condicional).  
+
+> **Exemplo:** *Emitir Nota Fiscal* → só acontece se o cliente pedir.
+
+No exemplo acima, *Emitir Nota Fiscal* é um **extend** de *Comprar Produto*.
+
 ## Direção das setas:
 - Associação: linha simples (sólida) entre o ator e o caso de uso.
+
 - Generalização: linha com ponta de seta aberta (vazia) apontando para o ator ou caso de uso mais genérico.
+
 - Include: linha pontilhada com ponta de seta aberta (vazia) apontando para o caso de uso incluído.
+
 - Extend: linha pontilhada com ponta de seta aberta (vazia) apontando para o caso de uso que está sendo estendido.
 
-
 - Seta apontando do ator A(pai) para o ator B(filho) indica que B herda os casos de uso de A.
+
 - Seta apontando do caso de uso A(pai) para o caso de uso B(filho) indica que B herda os casos de uso de A.
 
-- 
+1. **Include (<<include>>)**
+   * **Direção da seta:** do **caso de uso base** para o **caso de uso incluído**.
+   * Exemplo: `Fazer Pedido` **—>** `Validar Estoque` (com <<include>>).
+     → Toda vez que alguém faz o pedido, o estoque **sempre** é validado.
+
+2. **Extend (<<extend>>)**
+   * **Direção da seta:** do **caso de uso que estende** para o **caso de uso base**.
+   * Exemplo: `Aplicar Desconto Especial` **—>** `Fazer Pedido` (com <<extend>>).
+     → O desconto só ocorre **em certas condições**, mas não é obrigatório no pedido.

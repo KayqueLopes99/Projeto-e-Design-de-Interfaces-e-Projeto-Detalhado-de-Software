@@ -13,14 +13,14 @@
 ## Requisitos no Desenvolvimento Ágil
 - No contexto ágil, os requisitos de software são organizados de uma forma específica para facilitar o trabalho em ciclos curtos (Sprints).
 
-- Épica (Epic): É um grande bloco ou grupo de funcionalidades que possuem um objetivo de negócio em comum para atender a um requisito.
+- **Épica** (Epic): É um grande bloco ou grupo de funcionalidades que possuem um objetivo de negócio em comum para atender a um requisito.
 
 - História de Usuário (User Story): É uma descrição curta e simples de uma necessidade do usuário, escrita da perspectiva dele e sem detalhes técnicos.
 
 - Formato Comum: "Como um <papel>, eu quero <objetivo> para que <benefício>".
 - Exemplo: "Como um Administrador, quero convidar novos usuários para que meus colegas possam ver a informação".
 
-## Estrutura da Épica:
+## **Estrutura da Épica**:
 ``` md
 RF001 – O sistema deve permitir que o usuário realize o pagamento online dos
 produtos da cesta de compras, com transparência e confiabilidade.
@@ -35,7 +35,7 @@ para ter clareza sobre o resultado da transação
 ```
 
 ### Sobre a pirâmide:
-A imagem mostra a **quebra de trabalho em Agile** (Work Breakdown). Ela segue esta hierarquia:
+A **quebra de trabalho em Agile** (Work Breakdown). Ela segue esta hierarquia:
 
 1. **Product/Initiative** → é o objetivo maior ou produto final a ser desenvolvido.
 2. **Epic** → grandes blocos de funcionalidades ou objetivos dentro do produto (macro).

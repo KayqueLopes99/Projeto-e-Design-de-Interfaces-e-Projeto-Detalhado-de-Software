@@ -3,17 +3,29 @@ A descrição de um Caso de Uso detalha o passo a passo de uma funcionalidade.
 Segue a estrutura usada normalmente:
 
 * **Objetivo (ou Brief Description)**: Uma ou duas frases que resumem a finalidade do caso de uso. O que ele permite que o ator faça?
-* **Ator (Actor)**: Indica quem (ou o quê) irá interagir com o sistema para executar esta funcionalidade.
-* **Pré-Condições (Preconditions)**: O que precisa ser verdade **antes** que o caso de uso possa começar. Ex.: o usuário precisa estar logado, o cadastro precisa existir, etc.
-* **Condição de Entrada / pós condições **: A ação específica que o ator realiza para iniciar o caso de uso (ex: clicar em um botão).
-* **Fluxo Principal (Basic Flow of Events)**: Este é o "caminho feliz". Sequência numerada que descreve a interação quando tudo ocorre como esperado, sem erros ou desvios.
-* **Fluxos Alternativos (Alternative Flows)**: Caminhos de exceção ou alternativos. São as variações que podem ocorrer no Fluxo Principal (erros, cancelamentos, condições diferentes).
+* **Ator (Actor)**: 
+
+Indica quem (ou o quê) irá interagir com o sistema para executar esta funcionalidade.
+* **Pré-Condições (Preconditions)**: 
+
+O que precisa ser verdade **antes** que o caso de uso possa começar. Ex.: o usuário precisa estar logado, o cadastro precisa existir, etc.
+* **Condição de Entrada / pós condições**: 
+
+A ação específica que o ator realiza para iniciar o caso de uso (ex: clicar em um botão).
+* **Fluxo Principal (Basic Flow of Events)**: 
+
+Este é o "caminho feliz". Sequência numerada que descreve a interação quando tudo ocorre como esperado, sem erros ou desvios.
+* **Fluxos Alternativos (Alternative Flows)**:
+
+Caminhos de exceção ou alternativos. São as variações que podem ocorrer no Fluxo Principal (erros, cancelamentos, condições diferentes).
     * **Sintaxe Importante**: Usam-se marcadores como `[A1]`, `[A2]` no Fluxo Principal. Eles são "gatilhos". Se em um determinado passo algo diferente acontecer, a execução "pula" para o fluxo alternativo correspondente.
-* **Pós-Condições (Post-conditions)**: O que deve ser verdade **depois** que o caso de uso termina com sucesso. Qual é o estado final do sistema?
+* **Pós-Condições (Post-conditions)**: 
+
+O que deve ser verdade **depois** que o caso de uso termina com sucesso. Qual é o estado final do sistema?
 
 ---
 
-# Exemplo: Caso de Uso "Reservar Livro"
+### Exemplo: Caso de Uso "Reservar Livro"
 
 **Objetivo**: Este caso de uso possibilita a um usuário da biblioteca fazer a reserva de um livro. Esta reserva é efetuada diretamente pelo Usuário usando a Internet.
 

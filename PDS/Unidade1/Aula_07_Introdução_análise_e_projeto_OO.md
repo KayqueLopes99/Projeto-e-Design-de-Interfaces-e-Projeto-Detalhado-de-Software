@@ -1,9 +1,8 @@
 ## Introdução ao Análise e Projeto Orientados a Objetos
+> Conceito de Objetos
+**O que é um objeto?**
 
-### Conceito de Objetos
-
-**O que é um objeto?**  
-Um objeto é uma representação de uma entidade que possui um conjunto de propriedades (atributos) para armazenar seu estado e uma série de operações (métodos) que permitem descrever seu comportamento, como fatos que visualizam ou modificam o estado do objeto.
+- Um objeto é uma representação de uma entidade que possui um conjunto de propriedades (atributos) para armazenar seu estado e uma série de operações (métodos) que permitem descrever seu comportamento, como fatos que visualizam ou modificam o estado do objeto.
 
 #### Exemplo: Celular
 
@@ -60,7 +59,6 @@ Uma mensagem define três elementos principais:
 
 ### Classes
 #### O que é uma classe?
-
 - Objetos de um mesmo tipo possuem os mesmos comportamentos.
 - Objetos de um mesmo tipo pertencem à mesma classe.
 - Uma classe é um tipo a partir do qual objetos são criados.
@@ -94,7 +92,6 @@ Uma mensagem define três elementos principais:
     - Área de memória reservada individualmente para cada objeto.
 
 #### Métodos
-
 - Comportamentos, ações e reações dos objetos.
 - Funções ou serviços fornecidos pelo objeto para outros objetos.
 - Podem manipular os atributos do objeto (alterando seu estado).
@@ -120,7 +117,15 @@ Uma mensagem define três elementos principais:
 | + fazerAniversario()|
 | + apresentar(): String|
 +---------------------+
-````    
+```` 
+> Classe = substantivo que “existe” no sistema.
+
+> Atributo = informação que descreve a classe (adjetivo ou dado).
+
+> Método = verbo/ação que a classe executa ou sofre.
+
+
+
 - **Visibilidade dos atributos e métodos:**
     - `+` Público: acessível por qualquer objeto.
     - `-` Privado: acessível apenas dentro da própria classe.
@@ -170,7 +175,6 @@ Durante a análise, é importante considerar diferentes tipos de entidades que p
 ---
 
 ## Dicas para Identificação
-
 - Ao analisar os requisitos, **nomes** citados frequentemente podem indicar potenciais objetos ou classes.
 - Compreender o contexto e as necessidades do usuário é essencial para classificar corretamente possíveis objetos e métodos.
 
@@ -220,8 +224,7 @@ Durante a análise, é importante considerar diferentes tipos de entidades que p
 
 ### Detalhes:
 ### Relacionamentos de Associação
-
-Os relacionamentos de associação entre classes possuem alguns elementos básicos:
+- Os relacionamentos de associação entre classes possuem alguns elementos básicos:
 
 - **Nome:** Descreve a natureza do relacionamento entre as classes.
 - **Papel:** Indica o papel desempenhado por cada classe no relacionamento.

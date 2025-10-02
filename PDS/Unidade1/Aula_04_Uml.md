@@ -10,18 +10,16 @@
 
 * **Abrangência**: Ela oferece elementos para modelar todas as etapas do desenvolvimento de um software.
 
-### **História da UML**
-* **Influências**: Foram influenciadas por técnicas como Modelos Entidade/Relacionamento e SDL.
 
 ### **Usos da UML**
-- A UML é uma linguagem para:
-* **Visualização**: Tornar o sistema visível e compreensível.
-* **Especificação**: Descrever o sistema de forma precisa.
-* **Construção**: Servir como um guia para a implementação do código.
-* **Documentação**: Registrar as decisões e a estrutura do projeto.
-* **Comunicação**: Facilitar a comunicação entre a equipe e os stakeholders.
+* **Visualização**
+* **Especificação**
+* **Construção**
+* **Documentação**
+* **Comunicação**
 
-**Importante**: A UML **não é** um processo ou uma metodologia. Ela não dita os passos do desenvolvimento, mas sim fornece a linguagem para modelar dentro de um processo.
+**Importante**: Ela não dita os passos do desenvolvimento, mas sim fornece a linguagem para modelar dentro de um processo.
+
 
 ### Os elementos da UML são divididos em quatro categorias principais:
 
@@ -56,7 +54,7 @@
 
 ---
 
-2.  **Elementos Comportamentais**: Descrevem como o sistema se comporta ao longo do tempo[cite: 94, 124].
+2.  **Elementos Comportamentais**: Descrevem como o sistema se comporta ao longo do tempo.
     * **Use Case (Caso de Uso)**: Descreve uma funcionalidade do sistema do ponto de vista do usuário (ex: "Cadastrar cliente").
     * **Ator**: Representa um usuário ou sistema externo que interage com o sistema.
     * **Estados**: Situações ou condições em que um objeto pode se encontrar (ex: "Conectando").
@@ -97,11 +95,6 @@ A UML 1.x possui 9 diagramas, divididos em duas categorias principais:
     * Diagrama de Colaboração 
     * Diagrama de Sequência 
 
-### **Ferramentas CASE com UML**
-
-Existem várias ferramentas de software (CASE) que dão suporte à criação de diagramas UML, como: 
-* ArgoUML 
-* Jude/Astah 
 
 ### **Regras da UML**
 

@@ -8,23 +8,16 @@
 
 * Pode ser uma propriedade que o software deve ter para resolver um problema do mundo real.
 
-* Uma compreensão completa dos requisitos é **fundamental** para o desenvolvimento de um software de alta qualidade.
-
 * Descrições dos serviços fornecidos pelo sistema e das restrições sobre estes serviços.
 
 > Em síntese, é o que o sistema deve fazer e como deve se comportar
+
 (Ex: O sistema deve fornecer ...(Tal compotamento ou funcionalidade ou armazenar ou interagir)).
 
 ### **Técnicas de Elicitação (Obtenção) de Requisitos**
 * **Elicitação**: Também chamada de "descoberta de requisitos", é o processo de obter as informações necessárias.
 
 * **Envolvidos**: Deve envolver todos os interessados (*stakeholders*), como usuários finais, gerentes e especialistas no domínio do problema.
-
-* **Técnicas Comuns**:
-    * Entrevistas.
-    * Observação / Experiência.
-    * Análise de tarefas.
-    * Questionários.
 
 
 ### **Tipos de Requisitos**

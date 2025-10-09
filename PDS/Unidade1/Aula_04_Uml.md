@@ -10,7 +10,6 @@
 
 * **Abrangência**: Ela oferece elementos para modelar todas as etapas do desenvolvimento de um software.
 
-
 ### **Usos da UML**
 * **Visualização**
 * **Especificação**
@@ -28,7 +27,7 @@
     * **Objeto**: Uma instância de uma classe.
     * **Interface**: Uma coleção de operações que especificam um serviço.
     * **Componente**: Uma parte física e substituível do sistema, como um arquivo `.exe`.
-    * **Nó**: Um recurso computacional físico, como um servidor web.
+    * **Nó**: Um recurso computacional físico, como um   servidor web.
     * **Relacionamentos**: Mostram como os elementos se conectam (Associação, Herança, Agregação, Composição, etc.).
 
 > *Associação*: É a relação mais comum. Indica que objetos de uma classe se conectam a objetos de outra. Pense como "conhece um" ou "usa um".
@@ -43,7 +42,8 @@
 > Composição: É uma agregação forte, uma relação de "parte-de". As partes não existem sem o todo. O todo é responsável por criar e destruir suas partes. É representada pelo losango preto.
 - Exemplo: Uma Casa é composta por Paredes. Se a casa for demolida, suas paredes deixam de existir com ela.
 
-> Dependência: É a relação mais fraca. Ocorre quando uma classe utiliza outra (por exemplo, como parâmetro em um método), mas não armazena uma referência permanente a ela. Uma mudança em uma classe pode afetar a outra.
+> Dependência: É a relação mais fraca. Ocorre quando uma classe utiliza outra (por exemplo, como parâmetro em um método), mas não armazena uma referência permanente a ela. 
+- Uma mudança em uma classe pode afetar a outra.
 - Exemplo: Uma classe Impressora depende da classe Documento para executar o método imprimir(Documento d).
 
 > Realização: Como vimos acima, é a relação em que uma classe implementa uma interface, ou seja, cumpre o contrato definido por ela.
@@ -72,7 +72,7 @@
 
 
 
-4.  **Elementos de Extensão e Anotação**: Permitem adicionar informações extras aos modelos[cite: 95, 96, 136].
+4.  **Elementos de Extensão e Anotação**: Permitem adicionar informações extras aos modelos.
     * **Anotação**: Um comentário ou nota explicativa no diagrama.
     * **Restrição (Constraint)**: Uma condição ou regra que deve ser mantida (ex: `{frozen}`).
     * **Estereótipo (Stereotype)**: Permite criar novos tipos de elementos UML ex: `<<importa>>`.

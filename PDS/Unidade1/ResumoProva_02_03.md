@@ -2,8 +2,12 @@
 ### Introdução à Engenharia de Software
 > O que é Engenharia de Software?
 + Engenharia de software é uma disciplina relacionada com todos os aspectos da produção de software. E propõe ferramentas, técnicas e processos para:
-- Entender com precisão qual é o problema (as necessidades associadas ao sistema que deve ser construído/modificado)
+
+- Entender com precisão qual é o problema (as necessidades associadas ao 
+sistema que deve ser construído/modificado)
+
 - Produzir uma solução adequada para esse problema (um sistema pronto para usar, levando-se em consideração as necessidades das partes interessadas)
+
 - Levando-se em conta restrições de desenvolvimento e recursos disponíveis
 
 ### O que é Software?

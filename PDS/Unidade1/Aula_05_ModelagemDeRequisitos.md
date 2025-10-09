@@ -24,7 +24,6 @@
 - Existem dois tipos principais de requisitos: Funcionais e Não-Funcionais.
 
 #### **1. Requisitos Funcionais (RF)**
-
 * **Definição**: Descrevem **o que o sistema deve fazer**.
     * Declaram os serviços que o sistema deve fornecer.
     * Definem como o sistema deve reagir a entradas específicas.
@@ -41,7 +40,6 @@
     * `[RF002]` O sistema deve emitir um recibo para o cliente.
 
 #### **2. Requisitos Não-Funcionais (RNF)**
-
 * **Definição**: São **restrições e qualidades** sobre os serviços e funções oferecidos pelo sistema. Eles definem **como o sistema deve realizar** seus requisitos funcionais.
     - Geralmente se aplicam ao sistema como um todo.
     - Exemplos incluem restrições de tempo de resposta, padrões de desenvolvimento, etc.
@@ -58,7 +56,7 @@
 
 ### **Regras de Negócio** --> Requisitos:
 * **Definição**: São políticas ou condições que devem ser cumpridas, ditando como o negócio deve operar. Podem ser leis ou o estilo de negócio escolhido pela empresa.
-
+  
 - São tipos de requisitos de como os negócios, incluindo suas ferramentas de negócios, devem operar.
 
 * **Importância**: Podem ser reutilizadas em vários projetos. Separar as regras de negócio dos requisitos é uma boa prática de engenharia de software.

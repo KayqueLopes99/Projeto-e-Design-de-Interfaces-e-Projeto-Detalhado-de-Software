@@ -30,6 +30,7 @@
 
 ### 2. **Casos de uso**
 * São as **funcionalidades ou serviços** que o sistema oferece aos atores.
+* Inicia-se com o verbo.
 * Ex.: *Executar lição anterior, Gerenciar dicas, Registrar presença*.
 
 

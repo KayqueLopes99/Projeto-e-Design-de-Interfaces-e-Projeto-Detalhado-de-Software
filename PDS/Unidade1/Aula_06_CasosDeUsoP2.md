@@ -101,6 +101,8 @@ compra de celular).
 ### obs: 
 > **<< include >>**: Um caso de uso sempre chama outro, pois ele faz parte do fluxo principal.  
 
+- SETA APONTA PARA O QUE É OBRIGATÓRIO
+
 > **Include** = “sempre junto” (obrigatório).  
 
 > **Exemplo:** *Comprar Passagem* → inclui *Validar Pagamento*.

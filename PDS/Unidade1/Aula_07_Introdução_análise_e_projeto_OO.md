@@ -134,6 +134,8 @@ Uma mensagem define três elementos principais:
 
 ---
 ### Diagramas de classes
+- Entender a estrutura interna do sistema e os relacionamento entre funcionalidades somandas as caracteres.
+- 
 ---
 ![](image/image21.png)
 

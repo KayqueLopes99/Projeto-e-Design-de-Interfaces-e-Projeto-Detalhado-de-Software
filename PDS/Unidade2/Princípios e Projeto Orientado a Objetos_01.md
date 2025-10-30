@@ -78,3 +78,4 @@ design e a interação entre os objetos para implementar a solução.
 ![](image/image9.png)
 
 ---
+- Obs: Vertical Swimlane: é um retangulo representando as entidades para distinguir as partes envolvidas.

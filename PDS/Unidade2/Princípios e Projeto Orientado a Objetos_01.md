@@ -1,6 +1,5 @@
 ## Princípios e Projeto Orientado a Objetos
 ### Encapsulamento
-
 - Encapsulamento de informações é esconder todos os membros de uma classe, além de esconder como funcionam as rotinas (no caso métodos) do nosso sistema.
 - É fundamental para que seu sistema seja suscetível a mudanças:
     - Não precisaremos mudar uma regra de negócio em vários lugares, mas sim em apenas um único lugar, já que essa regra está encapsulada.

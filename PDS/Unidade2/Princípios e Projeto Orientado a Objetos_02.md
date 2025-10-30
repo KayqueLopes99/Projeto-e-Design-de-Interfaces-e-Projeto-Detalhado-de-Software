@@ -105,4 +105,3 @@ Diagrama que mostra **os estados de um objeto ou sistema** e **como ele muda de 
 
 ---
 
-### Princípios de Projeto de Software

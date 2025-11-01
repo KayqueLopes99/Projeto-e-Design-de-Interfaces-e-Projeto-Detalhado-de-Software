@@ -3,8 +3,11 @@
 
 ### **Single Responsibility Principle** (Princípio da Responsabilidade Única)
 - Uma classe deve ter apenas um motivo para mudar, ou seja, deve ter apenas uma única responsabilidade.
-- Se uma classe tem muitas responsabilidades divida a-a em classes menores, cada uma com uma responsabilidade única.
->Antes a classe estudante estava cheia de metodos. 
+- Se uma classe tem muitas responsabilidades divida a-a em classes menores, cada uma com uma responsabilidade única. 
+
+- Dividimos em gerenciadores funcionais.
+
+> Antes a classe estudante estava cheia de metodos. 
 ---
 ![](image/image26.png)
 
@@ -20,14 +23,28 @@
 
 ---
 
+| Conceito do Princípio | Componente no Diagrama | Explicação |
+|---|---|---|
+| Fechado para Modificação | PaymentProcessor | A classe principal que orquestra a ação. Seu código nunca muda, não importa quantas novas formas de pagamento surjam. |
+| Aberto para Extensão | Interface PaymentStrategy e suas implementações | É a "porta" para novas funcionalidades. Para adicionar um novo comportamento, basta criar uma nova classe que implemente esta interface. |
+| As "Extensões" | DebitCardPayment, PixPayment, CreditCardPayment e futuras classes | São as novas funcionalidades que podemos adicionar infinitamente sem quebrar o que já existe. |
+
+
+
 ### **Liskov Substitution Principle** (Princípio de Substituição de Liskov)
 - Objetos de uma classe derivada devem poder substituir objetos da classe base sem alterar as propriedades desejáveis do programa (correção, desempenho, etc.).
 - De forma clara: uma subclasse deve ser substituível por sua superclasse.
 - Isso significa que uma classe filha (subclasse) deve poder substituir sua classe mãe (superclasse) sem quebrar o código.
 
+---
+![](image/image27.png)
+
+---
+
+
 ### **Interfaces Segregation Principle** (Princípio da Segregação de Interfaces)
 - é melhor ter várias interfaces pequenas e coesas do que uma interface grande com métodos que algumas classes não precisam.
-
+- é uma forma de fragmentar em interfaces. 
 
 ### **Dependency Inversion Principle** (Princípio da Inversão de Dependência)
 - Módulos de alto e baixo nível devem depender de abstrações.
@@ -46,3 +63,45 @@
 - A classe de alto nível também depende da abstração, não da implementação.
 
 
+
+* Em vez de uma classe depender diretamente de outra classe concreta, ela deve depender de uma **interface** ou **abstração**.
+* Isso **reduz o acoplamento** e **aumenta a flexibilidade** do sistema.
+
+### Exemplo simples:
+
+Sem aplicar o princípio:
+
+```java
+class Lampada {
+    void ligar() { System.out.println("Lâmpada ligada"); }
+}
+
+class Interruptor {
+    private Lampada lampada;
+    Interruptor(Lampada lampada) { this.lampada = lampada; }
+    void acionar() { lampada.ligar(); }
+}
+```
+
+O `Interruptor` depende diretamente de uma `Lampada`.
+
+Aplicando o **Dependency Inversion**:
+
+```java
+interface Dispositivo {
+    void ligar();
+}
+
+class Lampada implements Dispositivo {
+    public void ligar() { System.out.println("Lâmpada ligada"); }
+}
+
+class Interruptor {
+    private Dispositivo dispositivo;
+    Interruptor(Dispositivo dispositivo) { this.dispositivo = dispositivo; }
+    void acionar() { dispositivo.ligar(); }
+}
+```
+
+Agora, o `Interruptor` não depende mais de uma implementação concreta, e sim de uma abstração (`Dispositivo`).
+Assim, é possível conectar qualquer dispositivo (ventilador, TV, etc.) sem alterar o código do `Interruptor`.

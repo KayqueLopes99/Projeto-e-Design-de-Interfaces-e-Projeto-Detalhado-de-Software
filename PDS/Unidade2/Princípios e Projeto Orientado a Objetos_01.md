@@ -36,6 +36,19 @@
 - Em agregação (relação fraca), os componentes podem existir independente do objeto-contêiner.
 - Diferente da herança, onde as classes compartilham comportamentos, a composição foca em combinar funcionalidades para modelar situações onde um objeto não faz sentido sem suas partes.
 
+
+### Agregação (o "tem um")
+
+**Símbolo:** `◇` (um losango branco/vazio na classe que contém a outra).
+
+* "Uma universidade **tem** estudantes, mas se a universidade fechar, os estudantes continuam existindo." (relação fraca)
+
+### Composição (o "é parte de")
+
+**Símbolo:** `◆` (um losango preto/preenchido na classe que contém a outra).
+
+* "Uma casa **é composta por** quartos, e se a casa for demolida, os quartos deixam de existir com ela." (relação forte, de vida ou morte)
+
 ---
 ![](image/image2.png)
 
@@ -56,10 +69,10 @@
 ## Projeto Orientado a Objetos
 Consiste em definir a estrutura interna das classes, métodos, interfaces, padrões de
 design e a interação entre os objetos para implementar a solução.
-• Objetivo:
-• Transformar o modelo da análise orientado a objetos em uma solução técnica
-• Pergunta-chave: Como o sistema deve ser implementado?
-• Inclue decisões sobre herença, polimorfismo, encapsulamento e design de padrões
+-  Objetivo:
+-  Transformar o modelo da análise orientado a objetos em uma solução técnica
+-  Pergunta-chave: Como o sistema deve ser implementado?
+-  Inclue decisões sobre herença, polimorfismo, encapsulamento e design de padrões
 
 ---
 ![](image/image4.png)

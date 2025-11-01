@@ -1,6 +1,5 @@
 ## Padroes de projetos criacionais
 - Padrões de projeto são como um catálogo de soluções para problemas comuns que ocorrem repetidamente no desenvolvimento de software.
-
 - Melhora a qualidade e a confiabilidade do software.
 - Economiza tempo e esforço, pois evita que você precise "reinventar a roda".
 
@@ -26,7 +25,7 @@
 - Estrutra a seguir.
 ---
 ![](image/image21.png)
-- ConcreteProduct: Implementa a interface Product.
+- ConcreteProduct: retorna a interface Product.
 - Creator: Declara o factory method, que retorna um objeto do tipo Product. Pode também definir uma implementação padrão do factory method que retorna um objeto de uma classe ConcreteProduct padrão.
 
 ---

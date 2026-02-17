@@ -38,17 +38,7 @@ Facade é um padrão que disponibiliza uma interface simplificada para uma das f
 ![](image/image4.png)
 ![](image/image5.png)
 
----
 
-### 4. Adapter
-- O Adapter permite que objetos com interfaces incompatíveis colaborarem entre si.
-- O Adapter atua como um tradutor entre dois objetos, convertendo a interface de um objeto na interface esperada pelo outro objeto.
-
----
-![](image/image6.png)
-![](image/image7.png)
-
----
 
 ### 5. Proxy
 - O Proxy é um padrão de projeto estrutural que fornece um substituto ou representante de outro objeto para controlar o acesso a ele.

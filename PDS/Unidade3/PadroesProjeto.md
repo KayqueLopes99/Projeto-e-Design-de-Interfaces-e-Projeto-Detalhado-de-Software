@@ -35,11 +35,6 @@ Passa o resultado para dentro do segundo decorador, e assim por diante.
 
 ---
 
-### 2. State (Comportamental)
-**Definição:**
-- O State é um padrão de projeto comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. Parece como se o objeto mudasse de classe.
-
-
 
 ##### Como implementar
 
@@ -69,62 +64,3 @@ Passa o resultado para dentro do segundo decorador, e assim por diante.
 
 ---
 
-### 3. Observer (Comportamental)
-**Definição:**
-- O Observer é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
-
-**Como funciona:**
-* O **Sujeito** (Subject) mantém uma lista de inscritos.
-* O **Observador** (Observer) se inscreve no Sujeito.
-* Quando algo acontece no Sujeito, ele percorre a lista e chama um método de atualização em cada Observador.
-
-**Exemplo Prático:**
-* **Newsletter:** O blog é o Sujeito; os leitores são os Observadores. Quando sai um post novo, todos recebem e-mail.
-* **Interface Gráfica (Listeners):** O botão é o Sujeito. O código que reage ao clique é o Observador.
-* **Youtube:** O canal é o sujeito, os inscritos são os observadores.
-
-**Quando usar:**
-* Quando a mudança em um objeto exige mudanças em outros, e você não sabe quantos objetos precisam mudar.
-* Para criar sistemas desacoplados (o Sujeito não precisa saber quem são os Observadores nem o que eles fazem).
-
----
-
-### 4. Adapter (Estrutural)
-
-**Definição:**
-Permite que classes com interfaces incompatíveis trabalhem juntas. Ele atua como um tradutor entre dois objetos que, de outra forma, não conseguiriam se comunicar.
-
-
-
-**Como funciona:**
-* O **Adapter** implementa a interface que o cliente espera.
-* Dentro dele, ele chama os métodos do objeto incompatível (Adaptee), convertendo os dados se necessário.
-
-**Exemplo Prático:**
-* **Tomadas:** Um adaptador de tomada (padrão antigo de 2 pinos para o novo de 3 pinos).
-* **Sistemas Legados:** Seu sistema espera dados em formato `JSON`, mas precisa consumir uma API antiga de um banco que retorna `XML`. Você cria um Adapter que recebe XML, converte e entrega JSON para seu sistema.
-
-**Quando usar:**
-* Quando você quer usar uma classe existente, mas sua interface não corresponde à que você precisa.
-* Para integrar bibliotecas de terceiros ou sistemas legados sem alterar o código original deles.
-
----
-
-### 5. Facade (Estrutural)
-
-**Definição:**
-Fornece uma interface simplificada (uma "fachada") para um subsistema complexo contendo muitas classes e partes móveis.
-
-**Como funciona:**
-* A classe **Facade** conhece quais classes do subsistema são responsáveis por uma solicitação e delega as chamadas para os objetos apropriados.
-* O cliente interage apenas com a Facade, sem precisar conhecer a complexidade interna.
-
-**Exemplo Prático:**
-* **Ligar Computador:** Ao apertar o botão "Ligar" (Facade), o sistema internamente: verifica a energia -> inicia a CPU -> carrega a memória -> monta o disco -> inicia o SO. O usuário só apertou um botão.
-* **E-commerce:** Um método `finalizarCompra()` na Facade pode, internamente, chamar o `ServicoDeEstoque`, `ServicoDePagamento`, `ServicoDeNotaFiscal` e `ServicoDeEnvio`.
-
-**Quando usar:**
-* Para oferecer uma interface simples para uma biblioteca complexa.
-* Para desacoplar seu código de subsistemas complexos (se o subsistema mudar, você só altera a Facade, não o código todo).
-
----

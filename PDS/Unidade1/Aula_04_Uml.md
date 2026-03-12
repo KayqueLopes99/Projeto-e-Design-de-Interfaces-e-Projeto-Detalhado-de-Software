@@ -59,6 +59,7 @@
     * **Ator**: Representa um usuário ou sistema externo que interage com o sistema.
     * **Estados**: Situações ou condições em que um objeto pode se encontrar (ex: "Conectando").
     * **Mensagens e Transições**: A comunicação entre os objetos.
+    * **Retângulo do Sistema (Fronteira do Sistema)**: Representa o limite do sistema no **Diagrama de Caso de Uso**, separando o **ambiente interno** (casos de uso) do **ambiente externo** (atores).
 ---
 ![](image/image13.png)
 
